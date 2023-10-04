@@ -1,0 +1,177 @@
+/* Flexbox Part 1 */
+
+#flex-section1 ul {
+
+		display: flex; 
+		justify-content:space-evenly;
+		
+		margin:0;
+		padding:0;
+		list-style: none;
+		
+	}
+/* end Flexbox Part 1 */
+
+
+/* Flexbox Part 2 */
+#flex-section2 ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+	justify-content: none;
+	background-color: white;
+    }
+
+  
+  #flex-section2 li {
+   
+  }
+  
+  #flex-section2 .item1 {
+    order: 1; /* Reorder the first item to be the first column */
+	flex: 30;
+  }
+  
+  #flex-section2 .item2 {
+    order: 3;/* Reorder the second item to be the third column */
+	flex:30; 
+  }
+  
+  #flex-section2 .item3 {
+    order: 2; /* Reorder the third item to be the second column */
+	flex : 30;
+  }
+
+
+/* CSS Flexbox - Part 2 */
+  
+  
+
+/* end Flexbox Part 2 */
+
+
+/* Flexbox Part 3 */
+
+/* CSS Flexbox - Part 3 */
+
+#flex-section3 .box {
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+#flex-section3 .tags ul {
+list-style: none;
+display: flex;
+flex-wrap: wrap;
+padding:0
+
+}
+/* end Flexbox Part 3 */
+
+
+/* Grid Part 1 */
+
+#grid-section1 .grid {
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-template-rows: 100px 100px;
+    grid-gap: 20px;
+}
+
+
+
+/* end Grid Part 1 */
+
+
+/* Grid Part 2 */
+
+#grid-section2 .gridboxblue {
+	width: 450px;
+	height: 390px;
+margin-left: 15rem;
+
+}
+
+#grid-section2 .gridboxred {
+	margin-left: -43.7rem;
+width: 450px;
+height: 120px;
+z-index: -10;
+margin-top: 8rem;
+
+}
+
+
+
+/* end Grid Part 2 */
+
+
+/* Grid Part 3 */
+
+#grid-section3 .grid {
+	display: grid;
+    grid-template-columns: 450px;
+    grid-template-rows: 100px 300px 100px;
+    grid-gap: 10px;
+
+}
+
+#grid-section3 .box1 {
+	order: 1;
+	
+    grid-column: 1 / 3;
+
+}
+
+#grid-section3 .box2 {
+	order: 3;
+	
+    grid-column: 2 /  3;
+
+
+}
+
+#grid-section3 .box3 {
+	order : 2;
+	
+    
+
+
+}
+
+#grid-section3 .box4 {
+	order : 4;
+	
+    grid-column: 1 / 3;
+
+
+}
+
+/* end Grid Part 3 */
+
+
+/* Transition Part */
+
+#transition-section .box a {
+	display: inline-block;
+	background-color: #ccc;
+	color: #000;
+	padding: 20px;
+	text-decoration: none;
+
+
+}
+
+
+#transition-section .box a:hover {
+	background-color:  rgb(68, 86, 156);
+	color: #fff;
+
+	transition-property: background-color, color;
+	transition-duration: 3s;
+}
+
+/* end Transition Part */
